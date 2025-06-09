@@ -157,7 +157,7 @@
                     <div>
                         <b>Consumo de energía: </b>
                         <span style="color: {computeColor(energyUsage, 0, nrgAgent.limit)}">
-                            {energyUsage.toFixed(2)} mWh
+                            {energyUsage.toFixed(2)} Wh
                         </span>
                     </div>
                     <div>

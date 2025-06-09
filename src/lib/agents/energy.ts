@@ -1,7 +1,7 @@
 import { EventBus } from './agent_bus';
 
 export class EnergyAgent {
-    readonly limit = 400; //MW
+    readonly limit = 500; //Wh
     constructor() {
         EventBus.instance.subscribe('energy', this.onUsage.bind(this));
     }

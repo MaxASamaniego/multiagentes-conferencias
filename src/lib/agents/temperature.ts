@@ -3,10 +3,10 @@ import { getSeason } from '$lib/utils/date';
 import { nrgAgent } from './agent_index';
 
 export class TemperatureAgent {
-    // Energy consumption ( in MW )
+    // Energy consumption ( in Wh )
     static readonly baseLoad: number = 0.1;
-    static readonly costPerPerson: number = 0.7;
-    static readonly costPerDegree: number = 15;
+    static readonly costPerPerson: number = 0.85;
+    static readonly costPerDegree: number = 18;
     //
 
     static readonly baseline = {

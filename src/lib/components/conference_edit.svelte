@@ -34,7 +34,7 @@
 
     let name: string = $state("");
     let description: string = $state("");
-    let capacity: number = $state(0);
+    let capacity: number = $state(1);
 
     function clear() {
         name = "";
@@ -42,7 +42,7 @@
         startDate = today(getLocalTimeZone());
         endDate = today(getLocalTimeZone());
         minEndDate = today(getLocalTimeZone());
-        capacity = 0;
+        capacity = 1;
 
         conference = new Conference("", "", new Date(), new Date(), 0);
     }
